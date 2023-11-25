@@ -4,7 +4,7 @@ To increase automatic leverage, there are tweaks to do both in the source files 
 
 ## Changes in the source files
 
-1. Escape break tags in trend files
+### 1. Escape break tags in trend files
 
 Turn
 
@@ -14,18 +14,18 @@ into
 
 	Ingrid's&lt;br&gt;Poster
 
-2. Hide segments with unit ID and unit title
+### 2. Hide segments with unit ID and unit title
 
 	M00G Advertising Column
 
 which don't need to be translated.
 
-3. Remove break tags in some cases
+### 3. Remove break tags in some cases
 
 	Height:<br/>250 cm
 	Diameter:<br/>100 cm
 
-4. Strip tags in unit titles
+### 4. Strip tags in unit titles
 
 	<b>Wheelchair Basketball</b>
 	<span id="sp1">small bricks</span>
@@ -36,7 +36,7 @@ which don't need to be translated.
 
 ## Changes in the TMX files
 
-1. Bilingual segmentation and/or ealignment
+### 1. Bilingual segmentation and/or ealignment
 
 For example, turn this
 
@@ -62,28 +62,34 @@ It would be a matter of checking pricing plans, including number of requests and
  - sends the paragrams and receives the sentences
  - composes the new, segmented TMX file
 
-2. Update source wording in TM
+### 2. Update source wording in TM
 
 |             Original            |           Updated          |   |   |   |
-|:-----------------------------:|:---------------------------:|---|---|---|
+|:-----------------------------|:---------------------------|---|---|---|
 | Select from the pull-down menus to answer the question.                 | Select from the drop-down menus to answer the question.                        |   |   |   |
 
 
-3. Clean-up: remove unit id's from the beginning of segments
+### 3. Clean-up: remove unit id's from the beginning of segments
+
+In both the source and the target text:
 
 	M273 Pipelines
 	M273 Pipelines
 
 Pattern must be something like ^[MSR]\d{3}` with a few exceptions TBC
 
-4. Clean-up remove question number from the end of the segment
+### 4. Clean-up remove question number from the end of the segment
+
+In both the source and the target text:
 
 	M273 Pipelines Q1
 	M273 Pipelines Q1
 
 Pattern `\s+Q\d$`
 
-5. Remove double spaces from TM
+### 5. Remove double spaces from TM
+
+In both the source and the target text:
 
 Turn this
 
