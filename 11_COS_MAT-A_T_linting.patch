@@ -1,0 +1,544 @@
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M00G-AdvertisingColumn.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M00G-AdvertisingColumn.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M00G-AdvertisingColumn.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M00G-AdvertisingColumn.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -3,7 +3,7 @@
+     <items>
+         <item id="item1">
+             <label key="item1_cf13fbf4b1f79214ffa46c1d66809335_1">
+-                <text>Ingrid wants to use an advertising column as shown on the right to advertise her forthcoming show. She has designed a poster and has already printed 100 copies.<br/><br/>All of her posters are 60 cm x 75 cm.<br/><div id="Q1diagram"><div id="Q1label1" class="label">Ingrid's<br/>Poster</div><div id="Q1label2" class="label">Top</div><div id="Q1label3" class="label">75 cm</div><div id="Q1label4" class="label">60 cm</div></div>What is the <b>maximum</b> number of these posters that Ingrid can glue on one column <b>with no overlapping</b> and with all the posters displayed the right way up?<br/><br/><span id="sp1">Number of posters:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M00GQ01TXT"/><br/></text>
++                <text>Ingrid wants to use an advertising column as shown on the right to advertise her forthcoming show. She has designed a poster and has already printed 100 copies.<br/><br/>All of her posters are 60 cm x 75 cm.<br/><div id="Q1diagram"><div id="Q1label1" class="label">Ingrid's&lt;br/&gt;Poster</div><div id="Q1label2" class="label">Top</div><div id="Q1label3" class="label">75 cm</div><div id="Q1label4" class="label">60 cm</div></div>What is the <b>maximum</b> number of these posters that Ingrid can glue on one column <b>with no overlapping</b> and with all the posters displayed the right way up?<br/><br/><span id="sp1">Number of posters:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M00GQ01TXT"/><br/></text>
+             </label>
+             <label key="item1_1ea6d4eca9f42f957eeb8fc321bdbbc5_2">
+                 <text>M00G Advertising Column</text>
+@@ -12,7 +12,7 @@
+                 <text>Some cities use advertising columns for displaying posters and notices. The advertising columns shown below are <b>cylindrical</b>.</text>
+             </label>
+             <label key="item1_02a9ff3f70285ee8dc81a24283192bfc_4">
+-                <text>Diameter:<br/>100 cm</text>
++                <text>Diameter:&lt;br/&gt;100 cm</text>
+             </label>
+             <label key="item1_8002fefc5dbe42bfd62263f1c4fb4b64_5">
+                 <text>ADVERTISING COLUMN</text>
+@@ -24,7 +24,7 @@
+                 <text>Refer to &quot;Advertising Column&quot; on the right. Using the number keys, type your answer to the question.</text>
+             </label>
+             <label key="item1_0ebda59948baea08e35cae375cde7cc8_8">
+-                <text>Height:<br/>250 cm</text>
++                <text>Height:&lt;br/&gt;250 cm</text>
+             </label>
+             <label key="item1_eb48a8080adb1d27068be2ca4c260523_9">
+                 <text>Side view of column</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M420-Transport.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M420-Transport.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M420-Transport.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M420-Transport.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -6,7 +6,7 @@
+                 <text>10,10,11,11,11,12,12,12,12,13,15,16,17,17,19</text>
+             </label>
+             <label key="item1_ffa16e14715c4f9cf8b6a8fb9545f863_2">
+-                <text>Average time<br/>in minutes</text>
++                <text>Average time&lt;br/&gt;in minutes</text>
+             </label>
+             <label key="item1_2dd5ad4b93b8726c85105850c423c5d8_3">
+                 <text>14.7</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M464-Fence.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M464-Fence.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M464-Fence.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M464-Fence.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -6,7 +6,7 @@
+                 <text>Using the number keys, type your answer to the question.</text>
+             </label>
+             <label key="item1_259f670c2c95ffc3f11ea4e85571c151_2">
+-                <text>Area: <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M464Q01TXT"/> <span id="sp1"> m<sup>2</sup></span></text>
++                <text>Area: <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M464Q01TXT"/> <span id="sp1"> m²</span></text>
+             </label>
+             <label key="item1_9152e6df99459a84a01619279106afaf_3">
+                 <text>Maria has 120 metres of fencing. She wants to make three square enclosures for her pigs, as shown in the diagram.</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M559-TelephoneRates.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M559-TelephoneRates.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M559-TelephoneRates.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M559-TelephoneRates.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -9,7 +9,7 @@
+                 <text>Company 1 claims that they are the cheapest. They claim that on average, a person makes around 120 local calls, 30 national calls, 15 international calls, and 10 calls to mobile phones. Calls last an average of 3 minutes.<br/><br/>Company 2 claims that they are the cheapest. Their survey of the types of calls most frequently made, proves it.<br/><br/>Company 2 could be cheaper than Company 1 if people make more calls of which type?<br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M559Q01RADIO" id="M559Q01RADIO_0" value="0" class="radio"/><label for="M559Q01RADIO_0">Local calls</label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M559Q01RADIO" id="M559Q01RADIO_1" value="1" class="radio"/><label for="M559Q01RADIO_1">National calls</label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M559Q01RADIO" id="M559Q01RADIO_2" value="2" class="radio"/><label for="M559Q01RADIO_2">International calls</label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M559Q01RADIO" id="M559Q01RADIO_3" value="3" class="radio"/><label for="M559Q01RADIO_3">Calls to mobile phones</label></div></text>
+             </label>
+             <label key="item1_e3b7771002aefbf771dcd74205861f93_3">
+-                <text>Calls to<br/>mobile<br/>phones</text>
++                <text>Calls to&lt;br/&gt;mobile&lt;br/&gt;phones</text>
+             </label>
+             <label key="item1_3d522deaf85577451c01974654b36ad3_4">
+                 <text>0.2</text>
+@@ -18,10 +18,10 @@
+                 <text>M559 Telephone Rates</text>
+             </label>
+             <label key="item1_4df867e2b39944d36902a711bca0bc20_6">
+-                <text>Local<br/>calls</text>
++                <text>Local&lt;br/&gt;calls</text>
+             </label>
+             <label key="item1_e6f1324f027b8cccc5f54088471a7c5c_7">
+-                <text>International<br/>calls</text>
++                <text>International&lt;br/&gt;calls</text>
+             </label>
+             <label key="item1_c339efc24fb2f9f2318e56bb336f366e_8">
+                 <text><b>Telephone Rates</b><br/>Question <span id="Q1question_number" class="question_number"></span> / <span id="Q1question_number_total" class="question_number_total"></span></text>
+@@ -39,7 +39,7 @@
+                 <text>1.5</text>
+             </label>
+             <label key="item1_532fcaa52a13bf1bca53803a50a6ac01_13">
+-                <text>National<br/>calls</text>
++                <text>National&lt;br/&gt;calls</text>
+             </label>
+             <label key="item1_972a0f492099418ec90ea1e41f29cb31_14">
+                 <text>Company 2</text>
+@@ -60,7 +60,7 @@
+                 <text>2</text>
+             </label>
+             <label key="item1_df0a89ec8b69e11f9a8b7469aeb8013c_20">
+-                <text>Monthly<br/>flat rate</text>
++                <text>Monthly&lt;br/&gt;flat rate</text>
+             </label>
+         </item>
+     </items>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M571-StopTheCar.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M571-StopTheCar.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M571-StopTheCar.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M571-StopTheCar.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -18,13 +18,13 @@
+                 <text>STOP THE CAR</text>
+             </label>
+             <label key="item1_dcb83b1baefe0e21f9786120618605f5_6">
+-                <text>Which one of the following adjustments to the formula  <i>d</i> = 0.3<i>v</i> + 0.006<i>v</i><sup>2</sup>  is most likely to make it valid for wet conditions?<br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_0" value="0" class="radio"/><label for="M571Q01RADIO_0">Replace 0.3 by a smaller number.</label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_1" value="1" class="radio"/><label for="M571Q01RADIO_1">Replace 0.3 by a larger number.</label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_2" value="2" class="radio"/><label for="M571Q01RADIO_2">Replace 0.006 by a smaller number.</label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_3" value="3" class="radio"/><label for="M571Q01RADIO_3">Replace 0.006 by a larger number.</label></div></text>
++                <text>Which one of the following adjustments to the formula <i>d</i> = 0.3<i>v</i> + 0.006<i>v</i>² is most likely to make it valid for wet conditions?<br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_0" value="0" class="radio"/><label for="M571Q01RADIO_0">Replace 0.3 by a smaller number.</label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_1" value="1" class="radio"/><label for="M571Q01RADIO_1">Replace 0.3 by a larger number.</label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_2" value="2" class="radio"/><label for="M571Q01RADIO_2">Replace 0.006 by a smaller number.</label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M571Q01RADIO" id="M571Q01RADIO_3" value="3" class="radio"/><label for="M571Q01RADIO_3">Replace 0.006 by a larger number.</label></div></text>
+             </label>
+             <label key="item1_9962671533d8916199d07048350cdd64_7">
+                 <text>These distances <i>r</i> and <i>b</i> both depend on the speed <i>v</i> of the car.<br/><br/>For dry roads the following formulas give the minimum reaction-time distance and braking distance:</text>
+             </label>
+             <label key="item1_d1d35f266d4392c8645fd7865b9cea85_8">
+-                <text><i>r</i> = 0.3<i>v</i>  and  <i>b</i> = 0.006<i>v</i><sup>2</sup></text>
++                <text><i>r</i> = 0.3<i>v</i> and <i>b</i> = 0.006<i>v</i>²</text>
+             </label>
+             <label key="item1_c736ec3d412ea9b09efd91bc9cb9aa03_9">
+                 <text>the distance <i>b</i> travelled while the brakes are applied (the braking distance).</text>
+@@ -33,7 +33,7 @@
+                 <text>The above formula for <i>d</i> is valid for dry roads. When the road is wet, the distance to stop the car is not the same because of slippery conditions.</text>
+             </label>
+             <label key="item1_81a4873f3a92065f8f5ed968b8e79293_11">
+-                <text>This leads to a formula for the total stopping distance  <i>d</i> = 0.3<i>v</i> + 0.006<i>v</i><sup>2</sup>.</text>
++                <text>This leads to a formula for the total stopping distance <i>d</i> = 0.3<i>v</i> + 0.006<i>v</i>².</text>
+             </label>
+             <label key="item1_10057d293f7bb9aa32af010986c8fe4c_12">
+                 <text>The distance <i>d</i> to stop a moving car is the sum of the following two components:</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M905-TennisBalls.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M905-TennisBalls.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M905-TennisBalls.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M905-TennisBalls.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -57,7 +57,7 @@
+                 <text>Diameter</text>
+             </label>
+             <label key="item1_afdb9b5de9b8e7bda8a640dc8c2a62af_19">
+-                <text>Two students tested a new tennis ball for its bounce. They dropped it from 2.54 metres onto a smooth, rigid and horizontal surface and found that it rebounded to<br/>two-thirds <span class="paren">(</span><div class="fraction"><div class="num">2</div><div class="den">3</div></div><span class="paren">)</span> of its original height.<br/><br/>Determine if this ball meets the ITF bounce specification. Show your calculations in the space below.<br/><div id="M905TEQ02" class="mathTextEditor"></div><br/><br/><br/>Does this ball meet the ITF bounce specification?<br/><div class="radioDistractor" id="Q2d0"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_0" value="0" class="radio"/><label for="M905Q02RADIO_0">Yes</label></div><div class="radioDistractor" id="Q2d1"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_1" value="1" class="radio"/><label for="M905Q02RADIO_1">No</label></div></text>
++                <text>Two students tested a new tennis ball for its bounce. They dropped it from 2.54 metres onto a smooth, rigid and horizontal surface and found that it rebounded to&lt;br/&gt;two-thirds <span class="paren">(</span><div class="fraction"><div class="num">2</div><div class="den">3</div></div><span class="paren">)</span> of its original height.<br/><br/>Determine if this ball meets the ITF bounce specification. Show your calculations in the space below.<br/><div id="M905TEQ02" class="mathTextEditor"></div><br/><br/><br/>Does this ball meet the ITF bounce specification?<br/><div class="radioDistractor" id="Q2d0"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_0" value="0" class="radio"/><label for="M905Q02RADIO_0">Yes</label></div><div class="radioDistractor" id="Q2d1"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_1" value="1" class="radio"/><label for="M905Q02RADIO_1">No</label></div></text>
+             </label>
+             <label key="item1_5c6eda18bf0a13ae11ca3c6c439b6699_20">
+                 <text>Refer to &quot;Tennis Balls&quot; on the right. Type and click on a choice to answer the question.</text>
+@@ -152,7 +152,7 @@
+                 <text>Diameter</text>
+             </label>
+             <label key="item2_afdb9b5de9b8e7bda8a640dc8c2a62af_19">
+-                <text>Two students tested a new tennis ball for its bounce. They dropped it from 2.54 metres onto a smooth, rigid and horizontal surface and found that it rebounded to<br/>two-thirds <span class="paren">(</span><div class="fraction"><div class="num">2</div><div class="den">3</div></div><span class="paren">)</span> of its original height.<br/><br/>Determine if this ball meets the ITF bounce specification. Show your calculations in the space below.<br/><div id="M905TEQ02" class="mathTextEditor"></div><br/><br/><br/>Does this ball meet the ITF bounce specification?<br/><div class="radioDistractor" id="Q2d0"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_0" value="0" class="radio"/><label for="M905Q02RADIO_0">Yes</label></div><div class="radioDistractor" id="Q2d1"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_1" value="1" class="radio"/><label for="M905Q02RADIO_1">No</label></div></text>
++                <text>Two students tested a new tennis ball for its bounce. They dropped it from 2.54 metres onto a smooth, rigid and horizontal surface and found that it rebounded to&lt;br/&gt;two-thirds <span class="paren">(</span><div class="fraction"><div class="num">2</div><div class="den">3</div></div><span class="paren">)</span> of its original height.<br/><br/>Determine if this ball meets the ITF bounce specification. Show your calculations in the space below.<br/><div id="M905TEQ02" class="mathTextEditor"></div><br/><br/><br/>Does this ball meet the ITF bounce specification?<br/><div class="radioDistractor" id="Q2d0"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_0" value="0" class="radio"/><label for="M905Q02RADIO_0">Yes</label></div><div class="radioDistractor" id="Q2d1"><input spellcheck="false" autocomplete="off" type="radio" name="M905Q02RADIO" id="M905Q02RADIO_1" value="1" class="radio"/><label for="M905Q02RADIO_1">No</label></div></text>
+             </label>
+             <label key="item2_5c6eda18bf0a13ae11ca3c6c439b6699_20">
+                 <text>Refer to &quot;Tennis Balls&quot; on the right. Type and click on a choice to answer the question.</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M906-CrazyAnts.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M906-CrazyAnts.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M906-CrazyAnts.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M906-CrazyAnts.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -12,7 +12,7 @@
+                 <text><b>Crazy ants</b><br/>Question <span id="Q1question_number" class="question_number"></span> / <span id="Q1question_number_total" class="question_number_total"></span></text>
+             </label>
+             <label key="item2_2411f166e3938765e3d13c9b5156a9a9_4">
+-                <text>The land area of Christmas Island is 135 square kilometres (km<sup>2</sup>).<br/><br/>In 2007, crazy ant supercolonies covered about 6% of the land area on Christmas Island.<br/><br/>In 2007, approximately what land area of Christmas Island was covered by crazy ant supercolonies?<br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_0" value="0" class="radio"/><label for="M906Q01RADIO_0">4 km<sup>2</sup></label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_1" value="1" class="radio"/><label for="M906Q01RADIO_1">8 km<sup>2</sup></label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_2" value="2" class="radio"/><label for="M906Q01RADIO_2">23 km<sup>2</sup></label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_3" value="3" class="radio"/><label for="M906Q01RADIO_3">54 km<sup>2</sup></label></div><div class="radioDistractor" id="Q1d4"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_4" value="4" class="radio"/><label for="M906Q01RADIO_4">81 km<sup>2</sup></label></div></text>
++                <text>The land area of Christmas Island is 135 square kilometres (km²).<br/><br/>In 2007, crazy ant supercolonies covered about 6% of the land area on Christmas Island.<br/><br/>In 2007, approximately what land area of Christmas Island was covered by crazy ant supercolonies?<br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_0" value="0" class="radio"/><label for="M906Q01RADIO_0">4 km²</label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_1" value="1" class="radio"/><label for="M906Q01RADIO_1">8 km²</label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_2" value="2" class="radio"/><label for="M906Q01RADIO_2">23 km²</label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_3" value="3" class="radio"/><label for="M906Q01RADIO_3">54 km²</label></div><div class="radioDistractor" id="Q1d4"><input spellcheck="false" autocomplete="off" type="radio" name="M906Q01RADIO" id="M906Q01RADIO_4" value="4" class="radio"/><label for="M906Q01RADIO_4">81 km²</label></div></text>
+             </label>
+             <label key="item2_18d66bb7da691caa22d4aac4aa97c108_5">
+                 <text>M906 Crazy ants Q2</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M915-CarbonTax.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M915-CarbonTax.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M915-CarbonTax.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M915-CarbonTax.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -24,7 +24,7 @@
+                 <text>CARBON TAX</text>
+             </label>
+             <label key="item2_93ead8d9ac5d4b7920b7cb6a964baac5_8">
+-                <text>In Zedland, cars account for 15% of the total carbon dioxide (CO<sub>2</sub>) emissions. On average, a car emits 175 grams of CO<sub>2</sub> per kilometre driven. The Zedland government is now seeking to reduce CO<sub>2</sub> emissions.</text>
++                <text>In Zedland, cars account for 15% of the total carbon dioxide (CO₂) emissions. On average, a car emits 175 grams of CO₂ per kilometre driven. The Zedland government is now seeking to reduce CO₂ emissions.</text>
+             </label>
+             <label key="item2_cbc3982d45b12cd4ae98936b14fb4902_9">
+                 <text>In Zedland, everybody who buys a car must pay a tax. The tax (in zeds) is calculated from the vehicle's <b>weight</b> (in kg) and engine <b>power</b> (in kW) by the following formula:<br/><br/>Tax = Weight × 6 + Power × 20<br/><br/>A car weighs 1200 kg and its engine power is 110 kW.<br/><br/>What is the tax on this car?<br/><br/><span id="sp1">Tax:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M915Q02TXT"/> <span id="sp2">zeds</span><br/></text>
+@@ -33,7 +33,7 @@
+                 <text><b>Carbon Tax</b><br/>Question <span id="Q2question_number" class="question_number"></span> / <span id="Q2question_number_total" class="question_number_total"></span></text>
+             </label>
+             <label key="item2_108c838dac3191046aba6c1291192b48_11">
+-                <text><div id="graph1"><div id="label1" class="xlabel">100</div><div id="label2" class="xlabel">120</div><div id="label3" class="xlabel">140</div><div id="label4" class="xlabel">160</div><div id="label5" class="xlabel">180</div><div id="label6" class="xlabel">200</div><div id="label7" class="xlabel">220</div><div id="label8" class="xlabel">240</div><div id="label9" class="xlabel">260</div><div id="label10" class="ylabel">0</div><div id="label11" class="ylabel">2000</div><div id="label12" class="ylabel">4000</div><div id="label13" class="ylabel">6000</div><div id="label14" class="ylabel">8000</div><div id="label15" class="ylabel">10 000</div><div id="label16" class="ylabel">12 000</div><div id="label17" class="ylabel">14 000</div><div id="label18" class="ylabel">16 000</div><div id="label19">Amount of CO<sub>2</sub> per km driven (grams)</div><div id="label20">Number of cars sold in Zedland in one year</div></div>Cars differ in how much CO<sub>2</sub> they emit. This chart shows the number of cars sold in Zedland in one year, grouped according to how much CO<sub>2</sub> they emit per kilometre driven.<br/><br/>According to the graph, approximately, what was the number of cars sold that emitted less than 140 grams of CO<sub>2</sub> per kilometre driven?<br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_0" value="0" class="radio"/><label for="M915Q01RADIO_0">7500</label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_1" value="1" class="radio"/><label for="M915Q01RADIO_1">11 000</label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_2" value="2" class="radio"/><label for="M915Q01RADIO_2">12 500</label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_3" value="3" class="radio"/><label for="M915Q01RADIO_3">24 000</label></div></text>
++                <text><div id="graph1"><div id="label1" class="xlabel">100</div><div id="label2" class="xlabel">120</div><div id="label3" class="xlabel">140</div><div id="label4" class="xlabel">160</div><div id="label5" class="xlabel">180</div><div id="label6" class="xlabel">200</div><div id="label7" class="xlabel">220</div><div id="label8" class="xlabel">240</div><div id="label9" class="xlabel">260</div><div id="label10" class="ylabel">0</div><div id="label11" class="ylabel">2000</div><div id="label12" class="ylabel">4000</div><div id="label13" class="ylabel">6000</div><div id="label14" class="ylabel">8000</div><div id="label15" class="ylabel">10 000</div><div id="label16" class="ylabel">12 000</div><div id="label17" class="ylabel">14 000</div><div id="label18" class="ylabel">16 000</div><div id="label19">Amount of CO₂ per km driven (grams)</div><div id="label20">Number of cars sold in Zedland in one year</div></div>Cars differ in how much CO₂ they emit. This chart shows the number of cars sold in Zedland in one year, grouped according to how much CO₂ they emit per kilometre driven.<br/><br/>According to the graph, approximately, what was the number of cars sold that emitted less than 140 grams of CO₂ per kilometre driven?<br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_0" value="0" class="radio"/><label for="M915Q01RADIO_0">7500</label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_1" value="1" class="radio"/><label for="M915Q01RADIO_1">11 000</label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_2" value="2" class="radio"/><label for="M915Q01RADIO_2">12 500</label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M915Q01RADIO" id="M915Q01RADIO_3" value="3" class="radio"/><label for="M915Q01RADIO_3">24 000</label></div></text>
+             </label>
+         </item>
+     </items>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M943-Arches.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M943-Arches.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M943-Arches.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M943-Arches.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -3,7 +3,7 @@
+     <items>
+         <item id="item1">
+             <label key="item1_60b18982a0530f6aff31f5766ab98b4b_1">
+-                <text>A pointed arch is made from two identical intersecting arcs of circles.<br/><br/>The centres of the circles are at B and C.<br/><br/>The arcs intersect at D.<br/><div id="diagram2"><div id="label5" class="label">Pointed arch</div><div id="label6" class="label">D</div><div id="label7" class="label">B</div><div id="label8" class="label">C</div><div id="label9" class="label">2m</div><div id="label10" class="label"><i>h</i></div><div id="label11" class="label">Note:<br/>Diagram<br/>is not drawn to<br/>scale.</div></div>The width of a pointed arch is 2 metres.<br/><br/>What is the height of this arch, <i>h</i> metres (m), rounded to two decimal places?<br/><br/><span id="sp1">Height of arch:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M943Q02TXT"/> <span id="sp2">m</span><br/></text>
++                <text>A pointed arch is made from two identical intersecting arcs of circles.<br/><br/>The centres of the circles are at B and C.<br/><br/>The arcs intersect at D.<br/><div id="diagram2"><div id="label5" class="label">Pointed arch</div><div id="label6" class="label">D</div><div id="label7" class="label">B</div><div id="label8" class="label">C</div><div id="label9" class="label">2m</div><div id="label10" class="label"><i>h</i></div><div id="label11" class="label">Note:&lt;br/&gt;Diagram&lt;br/&gt;is not drawn to&lt;br/&gt;scale.</div></div>The width of a pointed arch is 2 metres.<br/><br/>What is the height of this arch, <i>h</i> metres (m), rounded to two decimal places?<br/><br/><span id="sp1">Height of arch:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M943Q02TXT"/> <span id="sp2">m</span><br/></text>
+             </label>
+             <label key="item1_69c24c8c885ff3f771a2fddce7969bf2_2">
+                 <text>M943 Arches Q2</text>
+@@ -18,7 +18,7 @@
+                 <text>Refer to &quot;Arches&quot; on the right. Using the number keys, type your answer to the question.</text>
+             </label>
+             <label key="item1_5a211af0e1750b8130d6cab8cf568b3b_6">
+-                <text><div id="diagram1"><div id="label1" class="label">Circular arch</div><div id="label2" class="label">A</div><div id="label3" class="label"><i>h</i></div><div id="label4" class="label"><i>w</i></div></div>The <i>circular</i> arch is a semi-circle with centre at A.<br/><br/>The height (<i>h</i>) and width (<i>w</i>) of the arch are also shown.<br/><br/>How are the height and width of the circular arch related?<br/><br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_0" value="0" class="radio"/><label for="M943Q01RADIO_0"><i>h</i> = 2<i>w</i></label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_1" value="1" class="radio"/><label for="M943Q01RADIO_1"><i>h</i> = <i>&amp;pi;w</i></label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_2" value="2" class="radio"/><label for="M943Q01RADIO_2"><i>w</i> = 2<i>h</i></label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_3" value="3" class="radio"/><label for="M943Q01RADIO_3"><i>w</i> = <i>&amp;pi;h</i></label></div></text>
++                <text><div id="diagram1"><div id="label1" class="label">Circular arch</div><div id="label2" class="label">A</div><div id="label3" class="label"><i>h</i></div><div id="label4" class="label"><i>w</i></div></div>The <i>circular</i> arch is a semi-circle with centre at A.<br/><br/>The height (<i>h</i>) and width (<i>w</i>) of the arch are also shown.<br/><br/>How are the height and width of the circular arch related?<br/><br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_0" value="0" class="radio"/><label for="M943Q01RADIO_0"><i>h</i> = 2<i>w</i></label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_1" value="1" class="radio"/><label for="M943Q01RADIO_1"><i>h</i> = <i>πw</i></label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_2" value="2" class="radio"/><label for="M943Q01RADIO_2"><i>w</i> = 2<i>h</i></label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_3" value="3" class="radio"/><label for="M943Q01RADIO_3"><i>w</i> = <i>πh</i></label></div></text>
+             </label>
+             <label key="item1_a9f32a7756a2abcfe108aca508d74b27_7">
+                 <text>ARCHES</text>
+@@ -38,7 +38,7 @@
+         </item>
+         <item id="item2">
+             <label key="item2_60b18982a0530f6aff31f5766ab98b4b_1">
+-                <text>A pointed arch is made from two identical intersecting arcs of circles.<br/><br/>The centres of the circles are at B and C.<br/><br/>The arcs intersect at D.<br/><div id="diagram2"><div id="label5" class="label">Pointed arch</div><div id="label6" class="label">D</div><div id="label7" class="label">B</div><div id="label8" class="label">C</div><div id="label9" class="label">2m</div><div id="label10" class="label"><i>h</i></div><div id="label11" class="label">Note:<br/>Diagram<br/>is not drawn to<br/>scale.</div></div>The width of a pointed arch is 2 metres.<br/><br/>What is the height of this arch, <i>h</i> metres (m), rounded to two decimal places?<br/><br/><span id="sp1">Height of arch:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M943Q02TXT"/> <span id="sp2">m</span><br/></text>
++                <text>A pointed arch is made from two identical intersecting arcs of circles.<br/><br/>The centres of the circles are at B and C.<br/><br/>The arcs intersect at D.<br/><div id="diagram2"><div id="label5" class="label">Pointed arch</div><div id="label6" class="label">D</div><div id="label7" class="label">B</div><div id="label8" class="label">C</div><div id="label9" class="label">2m</div><div id="label10" class="label"><i>h</i></div><div id="label11" class="label">Note:&lt;br/&gt;Diagram&lt;br/&gt;is not drawn to&lt;br/&gt;scale.</div></div>The width of a pointed arch is 2 metres.<br/><br/>What is the height of this arch, <i>h</i> metres (m), rounded to two decimal places?<br/><br/><span id="sp1">Height of arch:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M943Q02TXT"/> <span id="sp2">m</span><br/></text>
+             </label>
+             <label key="item2_69c24c8c885ff3f771a2fddce7969bf2_2">
+                 <text>M943 Arches Q2</text>
+@@ -53,7 +53,7 @@
+                 <text>Refer to &quot;Arches&quot; on the right. Using the number keys, type your answer to the question.</text>
+             </label>
+             <label key="item2_5a211af0e1750b8130d6cab8cf568b3b_6">
+-                <text><div id="diagram1"><div id="label1" class="label">Circular arch</div><div id="label2" class="label">A</div><div id="label3" class="label"><i>h</i></div><div id="label4" class="label"><i>w</i></div></div>The <i>circular</i> arch is a semi-circle with centre at A.<br/><br/>The height (<i>h</i>) and width (<i>w</i>) of the arch are also shown.<br/><br/>How are the height and width of the circular arch related?<br/><br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_0" value="0" class="radio"/><label for="M943Q01RADIO_0"><i>h</i> = 2<i>w</i></label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_1" value="1" class="radio"/><label for="M943Q01RADIO_1"><i>h</i> = <i>&amp;pi;w</i></label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_2" value="2" class="radio"/><label for="M943Q01RADIO_2"><i>w</i> = 2<i>h</i></label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_3" value="3" class="radio"/><label for="M943Q01RADIO_3"><i>w</i> = <i>&amp;pi;h</i></label></div></text>
++                <text><div id="diagram1"><div id="label1" class="label">Circular arch</div><div id="label2" class="label">A</div><div id="label3" class="label"><i>h</i></div><div id="label4" class="label"><i>w</i></div></div>The <i>circular</i> arch is a semi-circle with centre at A.<br/><br/>The height (<i>h</i>) and width (<i>w</i>) of the arch are also shown.<br/><br/>How are the height and width of the circular arch related?<br/><br/><div class="radioDistractor" id="Q1d0"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_0" value="0" class="radio"/><label for="M943Q01RADIO_0"><i>h</i> = 2<i>w</i></label></div><div class="radioDistractor" id="Q1d1"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_1" value="1" class="radio"/><label for="M943Q01RADIO_1"><i>h</i> = <i>πw</i></label></div><div class="radioDistractor" id="Q1d2"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_2" value="2" class="radio"/><label for="M943Q01RADIO_2"><i>w</i> = 2<i>h</i></label></div><div class="radioDistractor" id="Q1d3"><input spellcheck="false" autocomplete="off" type="radio" name="M943Q01RADIO" id="M943Q01RADIO_3" value="3" class="radio"/><label for="M943Q01RADIO_3"><i>w</i> = <i>πh</i></label></div></text>
+             </label>
+             <label key="item2_a9f32a7756a2abcfe108aca508d74b27_7">
+                 <text>ARCHES</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M949-RoofTrussDesign.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M949-RoofTrussDesign.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M949-RoofTrussDesign.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M949-RoofTrussDesign.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -78,7 +78,7 @@
+                 <text>M949 Roof Truss Design Q3</text>
+             </label>
+             <label key="item1_582d007b6ed0fd774fbd686d5e7d4547_26">
+-                <text>For each pair of angles from the roof truss given in the table below, decide if the two angles are equal.<br/><br/>Click on either <b>Yes</b> or <b>No</b> for each pair of angles.<br/><table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Are these pairs of angles equal?</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1"><span class="ang">&amp;ang;</span> <i>QPS</i> and <span class="ang">&amp;ang;</span> <i>QRS</i></td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1"><span class="ang">&amp;ang;</span> <i>PTU</i> and <span class="ang">&amp;ang;</span> <i>PQS</i></td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_2" value="1"/></td></tr><tr><td id="Q2tr4td1"><span class="ang">&amp;ang;</span> <i>RQS</i> and <span class="ang">&amp;ang;</span> <i>PSQ</i></td><td id="Q2tr4td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_1" value="0"/></td><td id="Q2tr4td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_2" value="1"/></td></tr></table></text>
++                <text>For each pair of angles from the roof truss given in the table below, decide if the two angles are equal.<br/><br/>Click on either <b>Yes</b> or <b>No</b> for each pair of angles.<br/><table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Are these pairs of angles equal?</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1"><span class="ang">∠</span> <i>QPS</i> and <span class="ang">∠</span> <i>QRS</i></td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1"><span class="ang">∠</span> <i>PTU</i> and <span class="ang">∠</span> <i>PQS</i></td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_2" value="1"/></td></tr><tr><td id="Q2tr4td1"><span class="ang">∠</span> <i>RQS</i> and <span class="ang">∠</span> <i>PSQ</i></td><td id="Q2tr4td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_1" value="0"/></td><td id="Q2tr4td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_2" value="1"/></td></tr></table></text>
+             </label>
+             <label key="item1_b327f289e364a4c73d72864745be34cc_27">
+                 <text>A simplified diagram of this roof truss is shown below. In the diagram:</text>
+@@ -93,13 +93,13 @@
+                 <text><b>Roof Truss Design</b><br/>Question <span id="Q3question_number" class="question_number"></span> / <span id="Q3question_number_total" class="question_number_total"></span></text>
+             </label>
+             <label key="item1_7455e5b933e36f3be318dc7d9879d7d1_31">
+-                <text>An enlarged diagram of a section of the roof truss is shown below.<br/><div id="qDiagram"><div id="Q3label1" class="label"><i>M</i></div><div id="Q3label2" class="label"><i>Q</i></div><div id="Q3label3" class="label"><i>S</i></div><div id="Q3label4" class="label small whiteBG">2.4 m</div><div id="Q3label5" class="label small whiteBG">0.8 m</div><div id="Q3label6" class="label small whiteBG">0.5 m</div><div id="Q3label7" class="label"><b>?</b></div><div id="Q3label8" class="label">Note:<br/>indicates<br/>parallel<br/>lines</div></div>Use the diagram and information shown to calculate the height of the roof truss (the line segment <i>QS</i>).<br/><br/><span id="sp1">Height of roof truss:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M949Q03TXT"/> <span id="sp2">m</span><br/><br/>Show how you found your answer.<br/><div id="M949TEQ03" class="mathTextEditor"></div></text>
++                <text>An enlarged diagram of a section of the roof truss is shown below.<br/><div id="qDiagram"><div id="Q3label1" class="label"><i>M</i></div><div id="Q3label2" class="label"><i>Q</i></div><div id="Q3label3" class="label"><i>S</i></div><div id="Q3label4" class="label small whiteBG">2.4 m</div><div id="Q3label5" class="label small whiteBG">0.8 m</div><div id="Q3label6" class="label small whiteBG">0.5 m</div><div id="Q3label7" class="label"><b>?</b></div><div id="Q3label8" class="label">Note:&lt;br/&gt;indicates&lt;br/&gt;parallel&lt;br/&gt;lines</div></div>Use the diagram and information shown to calculate the height of the roof truss (the line segment <i>QS</i>).<br/><br/><span id="sp1">Height of roof truss:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M949Q03TXT"/> <span id="sp2">m</span><br/><br/>Show how you found your answer.<br/><div id="M949TEQ03" class="mathTextEditor"></div></text>
+             </label>
+             <label key="item1_1867df067f88316e2da1a5e58d6bc878_32">
+                 <text><i>QS</i> is a vertical line which is the axis of symmetry of the roof truss</text>
+             </label>
+             <label key="item1_a9bc4b15e49cf1aff1a04da8fe2bdf50_33">
+-                <text><span class="ang">&amp;ang;</span> <i>TUP</i> and <span class="ang">&amp;ang;</span> <i>QSP</i> are right angles</text>
++                <text><span class="ang">∠</span> <i>TUP</i> and <span class="ang">∠</span> <i>QSP</i> are right angles</text>
+             </label>
+             <label key="item1_93a589612dda536da018648499790571_34">
+                 <text><i>M</i> is the midpoint of <i>PQ</i></text>
+@@ -203,7 +203,7 @@
+                 <text>M949 Roof Truss Design Q3</text>
+             </label>
+             <label key="item2_582d007b6ed0fd774fbd686d5e7d4547_26">
+-                <text>For each pair of angles from the roof truss given in the table below, decide if the two angles are equal.<br/><br/>Click on either <b>Yes</b> or <b>No</b> for each pair of angles.<br/><table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Are these pairs of angles equal?</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1"><span class="ang">&amp;ang;</span> <i>QPS</i> and <span class="ang">&amp;ang;</span> <i>QRS</i></td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1"><span class="ang">&amp;ang;</span> <i>PTU</i> and <span class="ang">&amp;ang;</span> <i>PQS</i></td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_2" value="1"/></td></tr><tr><td id="Q2tr4td1"><span class="ang">&amp;ang;</span> <i>RQS</i> and <span class="ang">&amp;ang;</span> <i>PSQ</i></td><td id="Q2tr4td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_1" value="0"/></td><td id="Q2tr4td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_2" value="1"/></td></tr></table></text>
++                <text>For each pair of angles from the roof truss given in the table below, decide if the two angles are equal.<br/><br/>Click on either <b>Yes</b> or <b>No</b> for each pair of angles.<br/><table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Are these pairs of angles equal?</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1"><span class="ang">∠</span> <i>QPS</i> and <span class="ang">∠</span> <i>QRS</i></td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1"><span class="ang">∠</span> <i>PTU</i> and <span class="ang">∠</span> <i>PQS</i></td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_2" value="1"/></td></tr><tr><td id="Q2tr4td1"><span class="ang">∠</span> <i>RQS</i> and <span class="ang">∠</span> <i>PSQ</i></td><td id="Q2tr4td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_1" value="0"/></td><td id="Q2tr4td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_2" value="1"/></td></tr></table></text>
+             </label>
+             <label key="item2_b327f289e364a4c73d72864745be34cc_27">
+                 <text>A simplified diagram of this roof truss is shown below. In the diagram:</text>
+@@ -218,13 +218,13 @@
+                 <text><b>Roof Truss Design</b><br/>Question <span id="Q3question_number" class="question_number"></span> / <span id="Q3question_number_total" class="question_number_total"></span></text>
+             </label>
+             <label key="item2_7455e5b933e36f3be318dc7d9879d7d1_31">
+-                <text>An enlarged diagram of a section of the roof truss is shown below.<br/><div id="qDiagram"><div id="Q3label1" class="label"><i>M</i></div><div id="Q3label2" class="label"><i>Q</i></div><div id="Q3label3" class="label"><i>S</i></div><div id="Q3label4" class="label small whiteBG">2.4 m</div><div id="Q3label5" class="label small whiteBG">0.8 m</div><div id="Q3label6" class="label small whiteBG">0.5 m</div><div id="Q3label7" class="label"><b>?</b></div><div id="Q3label8" class="label">Note:<br/>indicates<br/>parallel<br/>lines</div></div>Use the diagram and information shown to calculate the height of the roof truss (the line segment <i>QS</i>).<br/><br/><span id="sp1">Height of roof truss:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M949Q03TXT"/> <span id="sp2">m</span><br/><br/>Show how you found your answer.<br/><div id="M949TEQ03" class="mathTextEditor"></div></text>
++                <text>An enlarged diagram of a section of the roof truss is shown below.<br/><div id="qDiagram"><div id="Q3label1" class="label"><i>M</i></div><div id="Q3label2" class="label"><i>Q</i></div><div id="Q3label3" class="label"><i>S</i></div><div id="Q3label4" class="label small whiteBG">2.4 m</div><div id="Q3label5" class="label small whiteBG">0.8 m</div><div id="Q3label6" class="label small whiteBG">0.5 m</div><div id="Q3label7" class="label"><b>?</b></div><div id="Q3label8" class="label">Note:&lt;br/&gt;indicates&lt;br/&gt;parallel&lt;br/&gt;lines</div></div>Use the diagram and information shown to calculate the height of the roof truss (the line segment <i>QS</i>).<br/><br/><span id="sp1">Height of roof truss:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M949Q03TXT"/> <span id="sp2">m</span><br/><br/>Show how you found your answer.<br/><div id="M949TEQ03" class="mathTextEditor"></div></text>
+             </label>
+             <label key="item2_1867df067f88316e2da1a5e58d6bc878_32">
+                 <text><i>QS</i> is a vertical line which is the axis of symmetry of the roof truss</text>
+             </label>
+             <label key="item2_a9bc4b15e49cf1aff1a04da8fe2bdf50_33">
+-                <text><span class="ang">&amp;ang;</span> <i>TUP</i> and <span class="ang">&amp;ang;</span> <i>QSP</i> are right angles</text>
++                <text><span class="ang">∠</span> <i>TUP</i> and <span class="ang">∠</span> <i>QSP</i> are right angles</text>
+             </label>
+             <label key="item2_93a589612dda536da018648499790571_34">
+                 <text><i>M</i> is the midpoint of <i>PQ</i></text>
+@@ -328,7 +328,7 @@
+                 <text>M949 Roof Truss Design Q3</text>
+             </label>
+             <label key="item3_582d007b6ed0fd774fbd686d5e7d4547_26">
+-                <text>For each pair of angles from the roof truss given in the table below, decide if the two angles are equal.<br/><br/>Click on either <b>Yes</b> or <b>No</b> for each pair of angles.<br/><table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Are these pairs of angles equal?</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1"><span class="ang">&amp;ang;</span> <i>QPS</i> and <span class="ang">&amp;ang;</span> <i>QRS</i></td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1"><span class="ang">&amp;ang;</span> <i>PTU</i> and <span class="ang">&amp;ang;</span> <i>PQS</i></td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_2" value="1"/></td></tr><tr><td id="Q2tr4td1"><span class="ang">&amp;ang;</span> <i>RQS</i> and <span class="ang">&amp;ang;</span> <i>PSQ</i></td><td id="Q2tr4td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_1" value="0"/></td><td id="Q2tr4td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_2" value="1"/></td></tr></table></text>
++                <text>For each pair of angles from the roof truss given in the table below, decide if the two angles are equal.<br/><br/>Click on either <b>Yes</b> or <b>No</b> for each pair of angles.<br/><table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Are these pairs of angles equal?</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1"><span class="ang">∠</span> <i>QPS</i> and <span class="ang">∠</span> <i>QRS</i></td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_1" id="M949Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1"><span class="ang">∠</span> <i>PTU</i> and <span class="ang">∠</span> <i>PQS</i></td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_2" id="M949Q02RADIO_2_2" value="1"/></td></tr><tr><td id="Q2tr4td1"><span class="ang">∠</span> <i>RQS</i> and <span class="ang">∠</span> <i>PSQ</i></td><td id="Q2tr4td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_1" value="0"/></td><td id="Q2tr4td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M949Q02RADIO_3" id="M949Q02RADIO_3_2" value="1"/></td></tr></table></text>
+             </label>
+             <label key="item3_b327f289e364a4c73d72864745be34cc_27">
+                 <text>A simplified diagram of this roof truss is shown below. In the diagram:</text>
+@@ -343,13 +343,13 @@
+                 <text><b>Roof Truss Design</b><br/>Question <span id="Q3question_number" class="question_number"></span> / <span id="Q3question_number_total" class="question_number_total"></span></text>
+             </label>
+             <label key="item3_7455e5b933e36f3be318dc7d9879d7d1_31">
+-                <text>An enlarged diagram of a section of the roof truss is shown below.<br/><div id="qDiagram"><div id="Q3label1" class="label"><i>M</i></div><div id="Q3label2" class="label"><i>Q</i></div><div id="Q3label3" class="label"><i>S</i></div><div id="Q3label4" class="label small whiteBG">2.4 m</div><div id="Q3label5" class="label small whiteBG">0.8 m</div><div id="Q3label6" class="label small whiteBG">0.5 m</div><div id="Q3label7" class="label"><b>?</b></div><div id="Q3label8" class="label">Note:<br/>indicates<br/>parallel<br/>lines</div></div>Use the diagram and information shown to calculate the height of the roof truss (the line segment <i>QS</i>).<br/><br/><span id="sp1">Height of roof truss:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M949Q03TXT"/> <span id="sp2">m</span><br/><br/>Show how you found your answer.<br/><div id="M949TEQ03" class="mathTextEditor"></div></text>
++                <text>An enlarged diagram of a section of the roof truss is shown below.<br/><div id="qDiagram"><div id="Q3label1" class="label"><i>M</i></div><div id="Q3label2" class="label"><i>Q</i></div><div id="Q3label3" class="label"><i>S</i></div><div id="Q3label4" class="label small whiteBG">2.4 m</div><div id="Q3label5" class="label small whiteBG">0.8 m</div><div id="Q3label6" class="label small whiteBG">0.5 m</div><div id="Q3label7" class="label"><b>?</b></div><div id="Q3label8" class="label">Note:&lt;br/&gt;indicates&lt;br/&gt;parallel&lt;br/&gt;lines</div></div>Use the diagram and information shown to calculate the height of the roof truss (the line segment <i>QS</i>).<br/><br/><span id="sp1">Height of roof truss:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M949Q03TXT"/> <span id="sp2">m</span><br/><br/>Show how you found your answer.<br/><div id="M949TEQ03" class="mathTextEditor"></div></text>
+             </label>
+             <label key="item3_1867df067f88316e2da1a5e58d6bc878_32">
+                 <text><i>QS</i> is a vertical line which is the axis of symmetry of the roof truss</text>
+             </label>
+             <label key="item3_a9bc4b15e49cf1aff1a04da8fe2bdf50_33">
+-                <text><span class="ang">&amp;ang;</span> <i>TUP</i> and <span class="ang">&amp;ang;</span> <i>QSP</i> are right angles</text>
++                <text><span class="ang">∠</span> <i>TUP</i> and <span class="ang">∠</span> <i>QSP</i> are right angles</text>
+             </label>
+             <label key="item3_93a589612dda536da018648499790571_34">
+                 <text><i>M</i> is the midpoint of <i>PQ</i></text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M954-MedicineDoses.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M954-MedicineDoses.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M954-MedicineDoses.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M954-MedicineDoses.xml	2023-11-24 10:56:00.591127883 +0100
+@@ -3,7 +3,7 @@
+     <items>
+         <item id="item1">
+             <label key="item1_1be0bffbf04e506139aac0e54d8a8a14_1">
+-                <text><i>C</i> =<div class="fraction"><div class="num"><i>m</i> &amp;times; <i>A</i></div><div class="den">150</div></div></text>
++                <text><i>C</i> =<div class="fraction"><div class="num"><i>m</i> × <i>A</i></div><div class="den">150</div></div></text>
+             </label>
+             <label key="item1_1648bb378d549af14a0598e470bfa639_2">
+                 <text>M954 Medicine Doses Q2</text>
+@@ -27,7 +27,7 @@
+                 <text><i>A</i> = adult dose (same units as child dose)</text>
+             </label>
+             <label key="item1_65e6c3b334b06307f609c5073e58f7a7_9">
+-                <text>Young's rule for children<br/>from 1 to 12 years old</text>
++                <text>Young's rule for children&lt;br/&gt;from 1 to 12 years old</text>
+             </label>
+             <label key="item1_7cf52c456a2af6439e865ac6c3fac093_10">
+                 <text><i>y</i> = age of child in <b>years</b></text>
+@@ -57,13 +57,13 @@
+                 <text>Refer to &quot;Medicine Doses&quot; on the right. Using the number keys, type your answer to the question.</text>
+             </label>
+             <label key="item1_47dda53f1fd1a095a8df4670b9149285_19">
+-                <text>Fried's rule for children<br/>up to 2 years old</text>
++                <text>Fried's rule for children&lt;br/&gt;up to 2 years old</text>
+             </label>
+             <label key="item1_b5430835f35c02b9f7c2df9a2c0440f5_20">
+                 <text><i>C</i> = child dose in appropriate units</text>
+             </label>
+             <label key="item1_1f2ed4d2ce03869a16447088865fc773_21">
+-                <text><i>C</i> =<div class="fraction"><div class="num"><i>y</i> &amp;times; <i>A</i></div><div class="den"><i>y</i> + 12</div></div></text>
++                <text><i>C</i> =<div class="fraction"><div class="num"><i>y</i> × <i>A</i></div><div class="den"><i>y</i> + 12</div></div></text>
+             </label>
+             <label key="item1_db037a594b2bd67901097dd1523de1fa_22">
+                 <text>M954 Medicine Doses Q1</text>
+@@ -89,7 +89,7 @@
+         </item>
+         <item id="item2">
+             <label key="item2_1be0bffbf04e506139aac0e54d8a8a14_1">
+-                <text><i>C</i> =<div class="fraction"><div class="num"><i>m</i> &amp;times; <i>A</i></div><div class="den">150</div></div></text>
++                <text><i>C</i> =<div class="fraction"><div class="num"><i>m</i> × <i>A</i></div><div class="den">150</div></div></text>
+             </label>
+             <label key="item2_1648bb378d549af14a0598e470bfa639_2">
+                 <text>M954 Medicine Doses Q2</text>
+@@ -113,7 +113,7 @@
+                 <text><i>A</i> = adult dose (same units as child dose)</text>
+             </label>
+             <label key="item2_65e6c3b334b06307f609c5073e58f7a7_9">
+-                <text>Young's rule for children<br/>from 1 to 12 years old</text>
++                <text>Young's rule for children&lt;br/&gt;from 1 to 12 years old</text>
+             </label>
+             <label key="item2_7cf52c456a2af6439e865ac6c3fac093_10">
+                 <text><i>y</i> = age of child in <b>years</b></text>
+@@ -143,13 +143,13 @@
+                 <text>Refer to &quot;Medicine Doses&quot; on the right. Using the number keys, type your answer to the question.</text>
+             </label>
+             <label key="item2_47dda53f1fd1a095a8df4670b9149285_19">
+-                <text>Fried's rule for children<br/>up to 2 years old</text>
++                <text>Fried's rule for children&lt;br/&gt;up to 2 years old</text>
+             </label>
+             <label key="item2_b5430835f35c02b9f7c2df9a2c0440f5_20">
+                 <text><i>C</i> = child dose in appropriate units</text>
+             </label>
+             <label key="item2_1f2ed4d2ce03869a16447088865fc773_21">
+-                <text><i>C</i> =<div class="fraction"><div class="num"><i>y</i> &amp;times; <i>A</i></div><div class="den"><i>y</i> + 12</div></div></text>
++                <text><i>C</i> =<div class="fraction"><div class="num"><i>y</i> × <i>A</i></div><div class="den"><i>y</i> + 12</div></div></text>
+             </label>
+             <label key="item2_db037a594b2bd67901097dd1523de1fa_22">
+                 <text>M954 Medicine Doses Q1</text>
+@@ -175,7 +175,7 @@
+         </item>
+         <item id="item3">
+             <label key="item3_1be0bffbf04e506139aac0e54d8a8a14_1">
+-                <text><i>C</i> =<div class="fraction"><div class="num"><i>m</i> &amp;times; <i>A</i></div><div class="den">150</div></div></text>
++                <text><i>C</i> =<div class="fraction"><div class="num"><i>m</i> × <i>A</i></div><div class="den">150</div></div></text>
+             </label>
+             <label key="item3_1648bb378d549af14a0598e470bfa639_2">
+                 <text>M954 Medicine Doses Q2</text>
+@@ -199,7 +199,7 @@
+                 <text><i>A</i> = adult dose (same units as child dose)</text>
+             </label>
+             <label key="item3_65e6c3b334b06307f609c5073e58f7a7_9">
+-                <text>Young's rule for children<br/>from 1 to 12 years old</text>
++                <text>Young's rule for children&lt;br/&gt;from 1 to 12 years old</text>
+             </label>
+             <label key="item3_7cf52c456a2af6439e865ac6c3fac093_10">
+                 <text><i>y</i> = age of child in <b>years</b></text>
+@@ -229,13 +229,13 @@
+                 <text>Refer to &quot;Medicine Doses&quot; on the right. Using the number keys, type your answer to the question.</text>
+             </label>
+             <label key="item3_47dda53f1fd1a095a8df4670b9149285_19">
+-                <text>Fried's rule for children<br/>up to 2 years old</text>
++                <text>Fried's rule for children&lt;br/&gt;up to 2 years old</text>
+             </label>
+             <label key="item3_b5430835f35c02b9f7c2df9a2c0440f5_20">
+                 <text><i>C</i> = child dose in appropriate units</text>
+             </label>
+             <label key="item3_1f2ed4d2ce03869a16447088865fc773_21">
+-                <text><i>C</i> =<div class="fraction"><div class="num"><i>y</i> &amp;times; <i>A</i></div><div class="den"><i>y</i> + 12</div></div></text>
++                <text><i>C</i> =<div class="fraction"><div class="num"><i>y</i> × <i>A</i></div><div class="den"><i>y</i> + 12</div></div></text>
+             </label>
+             <label key="item3_db037a594b2bd67901097dd1523de1fa_22">
+                 <text>M954 Medicine Doses Q1</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M967-WoodenTrainSet.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M967-WoodenTrainSet.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M967-WoodenTrainSet.xml	2023-10-25 11:24:59.470829236 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_M967-WoodenTrainSet.xml	2023-10-25 11:30:44.462893009 +0200
+@@ -12,10 +12,10 @@
+                 <text>How many curved pieces like the one shown on the right do John and Jette need to build a circular track?<br/><br/><span id="Q1sp1">Number of curved pieces:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M967Q01TXT"/><br/></text>
+             </label>
+             <label key="item1_8b1c0b027629125b9597ed5b7e1b4271_4">
+-                <text>&amp;alpha; = 30&amp;deg;</text>
++                <text>α = 30°</text>
+             </label>
+             <label key="item1_52f5c779de30a2e9ef5b4ce2c0f7b1b7_5">
+-                <text><div id="callout"><img src="image/M967_2.png" id="img1" alt=""/><br/><p id="caption">Note: Angle, &amp;alpha;, is measured in whole degrees, &amp;deg;.</p></div>The manufacturer of this wooden train set would like to produce a second type of curved piece with an angle of α degrees. A restriction of the manufacturing process is that the angle &amp;alpha; can only be a whole number of degrees.<br/><br/>The manufacturer considers the properties for the angle &amp;alpha; of the new type of curve so that it is possible to build a full circular track using only these new pieces.<br/><br class="clear"/>Does the angle &amp;alpha; need to have the following properties? Click on either <b>Yes</b> or <b>No</b> for each property.<table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Property</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1">&amp;alpha; must be an even number of degrees.</td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1">&amp;alpha; must be less than 90&amp;deg;.</td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_2" value="1"/></td></tr></table></text>
++                <text><div id="callout"><img src="image/M967_2.png" id="img1" alt=""/><br/><p id="caption">Note: Angle, α, is measured in whole degrees, °.</p></div>The manufacturer of this wooden train set would like to produce a second type of curved piece with an angle of α degrees. A restriction of the manufacturing process is that the angle α can only be a whole number of degrees.<br/><br/>The manufacturer considers the properties for the angle α of the new type of curve so that it is possible to build a full circular track using only these new pieces.<br/><br class="clear"/>Does the angle α need to have the following properties? Click on either <b>Yes</b> or <b>No</b> for each property.<table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Property</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1">α must be an even number of degrees.</td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1">α must be less than 90°.</td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_2" value="1"/></td></tr></table></text>
+             </label>
+             <label key="item1_5ab7eaaaee2516d925ce9b0c783ffad4_6">
+                 <text>WOODEN TRAIN SET</text>
+@@ -59,10 +59,10 @@
+                 <text>How many curved pieces like the one shown on the right do John and Jette need to build a circular track?<br/><br/><span id="Q1sp1">Number of curved pieces:</span> <input spellcheck="false" autocomplete="off" type="text" class="mask-piaacnum numeric" id="M967Q01TXT"/><br/></text>
+             </label>
+             <label key="item2_8b1c0b027629125b9597ed5b7e1b4271_4">
+-                <text>&amp;alpha; = 30&amp;deg;</text>
++                <text>α = 30°</text>
+             </label>
+             <label key="item2_52f5c779de30a2e9ef5b4ce2c0f7b1b7_5">
+-                <text><div id="callout"><img src="image/M967_2.png" id="img1" alt=""/><br/><p id="caption">Note: Angle, &amp;alpha;, is measured in whole degrees, &amp;deg;.</p></div>The manufacturer of this wooden train set would like to produce a second type of curved piece with an angle of α degrees. A restriction of the manufacturing process is that the angle &amp;alpha; can only be a whole number of degrees.<br/><br/>The manufacturer considers the properties for the angle &amp;alpha; of the new type of curve so that it is possible to build a full circular track using only these new pieces.<br/><br class="clear"/>Does the angle &amp;alpha; need to have the following properties? Click on either <b>Yes</b> or <b>No</b> for each property.<table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Property</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1">&amp;alpha; must be an even number of degrees.</td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1">&amp;alpha; must be less than 90&amp;deg;.</td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_2" value="1"/></td></tr></table></text>
++                <text><div id="callout"><img src="image/M967_2.png" id="img1" alt=""/><br/><p id="caption">Note: Angle, α, is measured in whole degrees, °.</p></div>The manufacturer of this wooden train set would like to produce a second type of curved piece with an angle of α degrees. A restriction of the manufacturing process is that the angle α can only be a whole number of degrees.<br/><br/>The manufacturer considers the properties for the angle α of the new type of curve so that it is possible to build a full circular track using only these new pieces.<br/><br class="clear"/>Does the angle α need to have the following properties? Click on either <b>Yes</b> or <b>No</b> for each property.<table class="greytable"><tr><th class="alignLeft" id="Q2tr1th1">Property</th><th id="Q2tr1th2">Yes</th><th id="Q2tr1th3">No</th></tr><tr><td id="Q2tr2td1">α must be an even number of degrees.</td><td id="Q2tr2td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_1" value="0"/></td><td id="Q2tr2td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_1" id="M967Q02RADIO_1_2" value="1"/></td></tr><tr><td id="Q2tr3td1">α must be less than 90°.</td><td id="Q2tr3td2" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_1" value="0"/></td><td id="Q2tr3td3" class="greytableRadio"><input spellcheck="false" autocomplete="off" type="radio" name="M967Q02RADIO_2" id="M967Q02RADIO_2_2" value="1"/></td></tr></table></text>
+             </label>
+             <label key="item2_5ab7eaaaee2516d925ce9b0c783ffad4_6">
+                 <text>WOODEN TRAIN SET</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA103-CalculationProgram.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA103-CalculationProgram.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA103-CalculationProgram.xml	2023-10-25 11:24:59.474829189 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA103-CalculationProgram.xml	2023-10-25 11:30:44.466892964 +0200
+@@ -69,7 +69,7 @@
+                 <text>This is the output I obtain:</text>
+             </label>
+             <label key="item0_4f4afe95a89a86a1438a930291d8f819_23">
+-                <text>&amp;ge;</text>
++                <text>≥</text>
+             </label>
+             <label key="item0_780c75cc44baaf997879bae9c3dcc406_24">
+                 <text>Refer to “Calculation Program” on the right. Using the number keys, type your answer to the question.</text>
+@@ -141,7 +141,7 @@
+                 <text>Click on the “Calculate” button to display the result in the table.</text>
+             </label>
+             <label key="item0_54a1ce0e8a666bdb983cf318d5d65457_47">
+-                <text>&amp;le;</text>
++                <text>≤</text>
+             </label>
+             <label key="item0_adaa056ffb74c8fdce0712b69606442e_48">
+                 <text>Refer to "Calculation Program" on the right. Use the calculation program to help you answer the questions below.</text>
+@@ -293,7 +293,7 @@
+                 <text>This is the output I obtain:</text>
+             </label>
+             <label key="item1_4f4afe95a89a86a1438a930291d8f819_23">
+-                <text>&amp;ge;</text>
++                <text>≥</text>
+             </label>
+             <label key="item1_780c75cc44baaf997879bae9c3dcc406_24">
+                 <text>Refer to “Calculation Program” on the right. Using the number keys, type your answer to the question.</text>
+@@ -365,7 +365,7 @@
+                 <text>Click on the “Calculate” button to display the result in the table.</text>
+             </label>
+             <label key="item1_54a1ce0e8a666bdb983cf318d5d65457_47">
+-                <text>&amp;le;</text>
++                <text>≤</text>
+             </label>
+             <label key="item1_adaa056ffb74c8fdce0712b69606442e_48">
+                 <text>Refer to "Calculation Program" on the right. Use the calculation program to help you answer the questions below.</text>
+@@ -517,7 +517,7 @@
+                 <text>This is the output I obtain:</text>
+             </label>
+             <label key="item4_4f4afe95a89a86a1438a930291d8f819_23">
+-                <text>&amp;ge;</text>
++                <text>≥</text>
+             </label>
+             <label key="item4_780c75cc44baaf997879bae9c3dcc406_24">
+                 <text>Refer to “Calculation Program” on the right. Using the number keys, type your answer to the question.</text>
+@@ -589,7 +589,7 @@
+                 <text>Click on the “Calculate” button to display the result in the table.</text>
+             </label>
+             <label key="item4_54a1ce0e8a666bdb983cf318d5d65457_47">
+-                <text>&amp;le;</text>
++                <text>≤</text>
+             </label>
+             <label key="item4_adaa056ffb74c8fdce0712b69606442e_48">
+                 <text>Refer to "Calculation Program" on the right. Use the calculation program to help you answer the questions below.</text>
+@@ -741,7 +741,7 @@
+                 <text>This is the output I obtain:</text>
+             </label>
+             <label key="item5_4f4afe95a89a86a1438a930291d8f819_23">
+-                <text>&amp;ge;</text>
++                <text>≥</text>
+             </label>
+             <label key="item5_780c75cc44baaf997879bae9c3dcc406_24">
+                 <text>Refer to “Calculation Program” on the right. Using the number keys, type your answer to the question.</text>
+@@ -813,7 +813,7 @@
+                 <text>Click on the “Calculate” button to display the result in the table.</text>
+             </label>
+             <label key="item5_54a1ce0e8a666bdb983cf318d5d65457_47">
+-                <text>&amp;le;</text>
++                <text>≤</text>
+             </label>
+             <label key="item5_adaa056ffb74c8fdce0712b69606442e_48">
+                 <text>Refer to "Calculation Program" on the right. Use the calculation program to help you answer the questions below.</text>
+diff --color -Naur /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA107-FieldOfVision.xml /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA107-FieldOfVision.xml
+--- /home/souto/Repos/ACER-PISA-2025-FT/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA107-FieldOfVision.xml	2023-10-25 11:24:59.474829189 +0200
++++ /home/souto/Repos/capstanlqc-pisa/pisa_2025ft_translation_common/source/11_COS_MAT-A_T/PISA_2025FT_MAT_MA107-FieldOfVision.xml	2023-10-25 11:30:44.466892964 +0200
+@@ -126,7 +126,7 @@
+                 <text>120</text>
+             </label>
+             <label key="item0_f5a79569d685a293ac7e993c37ef27fc_42">
+-                <text>The equation of the line is <i>a</i>&nbsp;=&nbsp;115&nbsp;–&nbsp;<i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
++                <text>The equation of the line is <i>a</i> = 115 – <i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
+             </label>
+             <label key="item0_dea174d6c733f846d1f5223c0e8d512d_43">
+                 <text>The effective field of vision is the entire area that a driver can see while driving when they are looking straight ahead. The effective field of vision is determined by the angle of vision and the speed of the vehicle, as shown below.</text>
+@@ -293,7 +293,7 @@
+                 <text>120</text>
+             </label>
+             <label key="item1_f5a79569d685a293ac7e993c37ef27fc_42">
+-                <text>The equation of the line is <i>a</i>&nbsp;=&nbsp;115&nbsp;–&nbsp;<i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
++                <text>The equation of the line is <i>a</i> = 115 – <i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
+             </label>
+             <label key="item1_dea174d6c733f846d1f5223c0e8d512d_43">
+                 <text>The effective field of vision is the entire area that a driver can see while driving when they are looking straight ahead. The effective field of vision is determined by the angle of vision and the speed of the vehicle, as shown below.</text>
+@@ -460,7 +460,7 @@
+                 <text>120</text>
+             </label>
+             <label key="item2_f5a79569d685a293ac7e993c37ef27fc_42">
+-                <text>The equation of the line is <i>a</i>&nbsp;=&nbsp;115&nbsp;–&nbsp;<i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
++                <text>The equation of the line is <i>a</i> = 115 – <i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
+             </label>
+             <label key="item2_dea174d6c733f846d1f5223c0e8d512d_43">
+                 <text>The effective field of vision is the entire area that a driver can see while driving when they are looking straight ahead. The effective field of vision is determined by the angle of vision and the speed of the vehicle, as shown below.</text>
+@@ -627,7 +627,7 @@
+                 <text>120</text>
+             </label>
+             <label key="item3_f5a79569d685a293ac7e993c37ef27fc_42">
+-                <text>The equation of the line is <i>a</i>&nbsp;=&nbsp;115&nbsp;–&nbsp;<i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
++                <text>The equation of the line is <i>a</i> = 115 – <i>s</i>, where <i>a</i> is the angle, in degrees, and <i>s</i> is the speed of the vehicle, in kilometres per hour.</text>
+             </label>
+             <label key="item3_dea174d6c733f846d1f5223c0e8d512d_43">
+                 <text>The effective field of vision is the entire area that a driver can see while driving when they are looking straight ahead. The effective field of vision is determined by the angle of vision and the speed of the vehicle, as shown below.</text>

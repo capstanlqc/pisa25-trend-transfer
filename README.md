@@ -76,7 +76,7 @@ In both the source and the target text:
 	M273 Pipelines
 	M273 Pipelines
 
-Pattern must be something like ^[MSR]\d{3}` with a few exceptions TBC
+Pattern must be something like `^[MSR]\d{3}` with a few exceptions TBC
 
 ### 4. Clean-up remove question number from the end of the segment
 
