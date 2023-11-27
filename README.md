@@ -103,20 +103,20 @@ It would be a matter of checking pricing plans, including number of requests and
 
 |             Original            |           Updated          |
 |:-----------------------------|:---------------------------|
-| Select from the pull-down menus to answer the question. | Select from the drop-down menus to answer the question. |
-| Find the range of value that the length of the third side of the triangle can take. | Find the range of values that the length of the third side of the triangle can take. |
-| Type and click on a choice to answer the question. | Type and click on your choice to answer the question. |
-| Click on &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each of the following balls. | Click on either &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each of the following balls. |
-| Click on &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of segments. | Click on either &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of segments. |
-| Click on &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of angles. | Click on either &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of angles. |
-| Refer to &quot;Fan Merchandise&quot; on the right.  | Refer to &quot;Z's Fan Merchandise&quot; on the right.  |
-| Step 4 is performed before Step 3. | The operation in Step 4 is performed before the operation in Step 3. |
-| Step 3 is performed before Step 2. | The operation in Step 3 is performed before the operation in Step 2. |
-| <seg>It increases and decreases</seg> | <seg>It increases and decreases.</seg> |
-| <seg>It strictly increases</seg> | <seg>It strictly increases.</seg> |
-| <seg>It strictly decreases</seg> | <seg>It strictly decreases.</seg> |
-| Look at the &lt;g1&gt;tab&lt;/g1&gt;, titled “Angles of Vision,” on the right. | Look at the &lt;g1&gt;tab&lt;/g1&gt; titled “Angles of Vision” on the right. |
-| <seg>The equation of the line is &lt;g1&gt;a&lt;/g1&gt; = 115 – &lt;g2&gt;s&lt;/g2&gt;, where &lt;g3&gt;a&lt;/g3&gt; is the angle, in degrees, and &lt;g4&gt;s&lt;/g4&gt; is the speed of the vehicle, in kilometres per hour.</seg> |  `<seg>The equation of the line is &lt;g1&gt;a&lt;/g1&gt;&#x00A0;=&#x00A0;115&#x00A0;–&#x00A0;&lt;g2&gt;s&lt;/g2&gt;, where &lt;g3&gt;a&lt;/g3&gt; is the angle, in degrees, and &lt;g4&gt;s&lt;/g4&gt; is the speed of the vehicle, in kilometres per hour.</seg>` |
+| `Select from the pull-down menus to answer the question.` | `Select from the drop-down menus to answer the question.` |
+| `Find the range of value that the length of the third side of the triangle can take.` | `Find the range of values that the length of the third side of the triangle can take.` |
+| `Type and click on a choice to answer the question.` | `Type and click on your choice to answer the question.` |
+| `Click on &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each of the following balls.` | `Click on either &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each of the following balls.` |
+| `Click on &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of segments.` | `Click on either &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of segments.` |
+| `Click on &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of angles.` | `Click on either &lt;g1&gt;Yes&lt;/g1&gt; or &lt;g2&gt;No&lt;/g2&gt; for each pair of angles.` |
+| `Refer to &quot;Fan Merchandise&quot; on the right. ` | `Refer to &quot;Z's Fan Merchandise&quot; on the right. ` |
+| `Step 4 is performed before Step 3.` | `The operation in Step 4 is performed before the operation in Step 3.` |
+| `Step 3 is performed before Step 2.` | `The operation in Step 3 is performed before the operation in Step 2.` |
+| `<seg>It increases and decreases</seg>` | `<seg>It increases and decreases.</seg>` |
+| `<seg>It strictly increases</seg>` | `<seg>It strictly increases.</seg>` |
+| `<seg>It strictly decreases</seg>` | `<seg>It strictly decreases.</seg>` |
+| `Look at the &lt;g1&gt;tab&lt;/g1&gt;, titled “Angles of Vision,” on the right.` | `Look at the &lt;g1&gt;tab&lt;/g1&gt; titled “Angles of Vision” on the right.` |
+| `<seg>The equation of the line is &lt;g1&gt;a&lt;/g1&gt; = 115 – &lt;g2&gt;s&lt;/g2&gt;, where &lt;g3&gt;a&lt;/g3&gt; is the angle, in degrees, and &lt;g4&gt;s&lt;/g4&gt; is the speed of the vehicle, in kilometres per hour.</seg>` | `<seg>The equation of the line is &lt;g1&gt;a&lt;/g1&gt; = 115 – &lt;g2&gt;s&lt;/g2&gt;, where &lt;g3&gt;a&lt;/g3&gt; is the angle, in degrees, and &lt;g4&gt;s&lt;/g4&gt; is the speed of the vehicle, in kilometres per hour.</seg>` |
 
 ### 3. Updates in both languages
 
