@@ -116,7 +116,7 @@ It would be a matter of checking pricing plans, including number of requests and
 | <seg>It strictly increases</seg> | <seg>It strictly increases.</seg> |
 | <seg>It strictly decreases</seg> | <seg>It strictly decreases.</seg> |
 | Look at the &lt;g1&gt;tab&lt;/g1&gt;, titled “Angles of Vision,” on the right. | Look at the &lt;g1&gt;tab&lt;/g1&gt; titled “Angles of Vision” on the right. |
-| <seg>The equation of the line is &lt;g1&gt;a&lt;/g1&gt; = 115 – &lt;g2&gt;s&lt;/g2&gt;, where &lt;g3&gt;a&lt;/g3&gt; is the angle, in degrees, and &lt;g4&gt;s&lt;/g4&gt; is the speed of the vehicle, in kilometres per hour.</seg> |  <seg>The equation of the line is &lt;g1&gt;a&lt;/g1&gt; = 115 – &lt;g2&gt;s&lt;/g2&gt;, where &lt;g3&gt;a&lt;/g3&gt; is the angle, in degrees, and &lt;g4&gt;s&lt;/g4&gt; is the speed of the vehicle, in kilometres per hour.</seg> |
+| <seg>The equation of the line is &lt;g1&gt;a&lt;/g1&gt; = 115 – &lt;g2&gt;s&lt;/g2&gt;, where &lt;g3&gt;a&lt;/g3&gt; is the angle, in degrees, and &lt;g4&gt;s&lt;/g4&gt; is the speed of the vehicle, in kilometres per hour.</seg> |  <seg>The equation of the line is <g1>a</g1>&#x00A0;=&#x00A0;115&#x00A0;&#x2013;&#x00A0;<g2>s</g2>, where <g3>a</g3> is the angle, in degrees, and <g4>s</g4> is the speed of the vehicle, in kilometres per hour.</seg> |
 
 ### 3. Updates in both languages
 
