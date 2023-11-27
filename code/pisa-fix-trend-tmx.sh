@@ -84,7 +84,7 @@ for file in "$folder_path"/*.tmx; do
             s/It stays the same<\/seg>/It stays the same\.<\/seg>/g;
             s/Look at the (&lt;g\d+&gt;)tab(&lt;\/g\d+&gt;)\, titled “Angles of Vision\,” on the right\./Look at the $1tab$2 titled “Angles of Vision” on the right\./g;
             s/The equation of the line is (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) \= 115 \– (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;)\, where (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) is the angle\, in degrees\, and (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;) is the speed of the vehicle\, in kilometres per hour\./The equation of the line is $1a$2&#x00A0;\=&#x00A0;115&#x00A0;\–&#x00A0;$3s$4\, where $5a$6 is the angle\, in degrees\, and $7s$8 is the speed of the vehicle\, in kilometres per hour\./g;
-            s/<seg>&lt;br class\=&quot;clear&quot; \/&gt;/<seg>/g;
+            s/<seg>&lt;br class\=&quot;clear(Both)?&quot; \/&gt;/<seg>/g;
             s/&lt;\/g\d+&gt;&lt;br\/&gt; Question<\/seg>/<\/seg>/g;
         ' < "$file" > "${folder_path}/fix/${output_file}"
     
