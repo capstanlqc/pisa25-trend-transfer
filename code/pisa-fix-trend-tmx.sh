@@ -71,10 +71,30 @@ for file in "$folder_path"/*.tmx; do
             s/\s*&lt;\/g\d+&gt;\s*<\/seg>/<\/seg>/g;
     ## Remove double spaces
             s/(<seg>.*?<\/seg>)/$1 =~ s|[ \x{00A0}]+| |gr/ge;
+    ## Fixes for the updated source files
+            s/Select from the pull\-down menus to answer the question\./Select from the drop\-down menus to answer the question\./g;
+            s/Find the range of value that the length of the third side of the triangle can take\./Find the range of values that the length of the third side of the triangle can take\./g;
+            s/Type and click on a choice to answer the question\./Type and click on your choice to answer the question\./g;
+            s/Click on (&lt;g\d+&gt;)Yes(&lt;\/g\d+&gt;) or (&lt;g\d+&gt;)No(&lt;\/g\d+&gt;) for each of the following balls\./Click on either $1Yes$2 or $3No$4 for each of the following balls\./g;
+            s/Refer to &quot;Fan Merchandise&quot; on the right\./Refer to &quot;Z\x{0027}s Fan Merchandise&quot; on the right\./g;
+            s/Step (\d+) is performed before Step (\d+)\./The operation in Step $1 is performed before the operation in Step $2\./g;
+            s/It increases and decreases<\/seg>/It increases and decreases.\<\/seg>/g;
+            s/It strictly increases<\/seg>/It strictly increases\.<\/seg>/g;
+            s/It strictly decreases<\/seg>/It strictly decreases\.<\/seg>/g;
+            s/It stays the same<\/seg>/It stays the same\.<\/seg>/g;
+            s/Look at the (&lt;g\d+&gt;)tab(&lt;\/g\d+&gt;)\, titled “Angles of Vision\,” on the right\./Look at the $1tab$2 titled “Angles of Vision” on the right\./g;
+            s/The equation of the line is (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) \= 115 \– (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;)\, where (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) is the angle\, in degrees\, and (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;) is the speed of the vehicle\, in kilometres per hour\./The equation of the line is $1a$2&#x00A0;\=&#x00A0;115&#x00A0;\–&#x00A0;$3s$4\, where $5a$6 is the angle\, in degrees\, and $7s$8 is the speed of the vehicle\, in kilometres per hour\./g;
+            s/<seg>&lt;br class\=&quot;clear&quot; \/&gt;/<seg>/g;
+            s/&lt;\/g\d+&gt;&lt;br\/&gt; Question<\/seg>/<\/seg>/g;
         ' < "$file" > "${folder_path}/fix/${output_file}"
     
     ## Create a new TMX file with "paragraph" segtype declared.
         sed 's/segtype="sentence"/segtype="paragraph"/' "${folder_path}/fix/${output_file}" > "${folder_path}/fix/${output_resegmented_file}"
+    ## Make a copy of the existing old TMX file with "paragraph" segtype declared.
+        if [ "$(grep 'segtype\=\"sentence\"' $file)" ]; then
+            mkdir -p "${folder_path}/paragraph"
+            sed 's/segtype="sentence"/segtype="paragraph"/' "${folder_path}/${file}" > "${folder_path}/paragraph/${file}"
+        fi
 
         echo "Processed: $file -> $output_file"
     fi
