@@ -120,22 +120,12 @@ It would be a matter of checking pricing plans, including number of requests and
 
 ### 3. Updates in both languages
 
-#### 3.1. Remove `</g1><br/>.+` in both languages in cases like: 
-
-	Tossing Coins</g1><br/> Question
-	Testa o croce</g1><br/> Domanda
-
-	Tile Arrangement</g1><br/> Question
-	Composizione di piastrelle</g1><br/> Domanda
-
-We only want the part before the line break (without the surrounding tags).
-
-#### 3.2. Remove tags in source and target, where the source has "Refer to UNIT-TITLE on the right.":
+#### 3.1. Remove tags in source and target, where the source has "Refer to UNIT-TITLE on the right.":
 
 	<seg>\s*&lt;i&gt;Refer to "([^"]+)" on the right.</seg>
 	<seg>Refer to "$1" on the right.</seg>
 
-#### 3.3. Remove trailing tag, in any of these: 
+#### 3.2. Remove trailing tag, in any of these: 
 
 	<seg>Click on a choice to answer the question.&lt;/i&gt;</seg>
 	<seg>  And it was my privilege to listen.”&lt;/i&gt;</seg>
@@ -164,10 +154,24 @@ Pattern:
 	<seg>([^&\n<]+)&lt;/i&gt;</seg>
 	<seg>$1</seg>
 
-#### 3.4. Remove leading break tags with class
+#### 3.3. Remove leading break tags with class
 
 	<seg>&lt;br class="clear" /&gt;\s*
 	<seg>
+
+#### 3.4. Optional: Remove `</g1><br/>.+` in both languages in cases like this
+
+(Low priority)
+
+	Tossing Coins</g1><br/> Question
+	Testa o croce</g1><br/> Domanda
+
+	Tile Arrangement</g1><br/> Question
+	Composizione di piastrelle</g1><br/> Domanda
+
+We only want the part before the line break (without the surrounding tags).
+
+If this is tricky because it involves a condition in the source (to match "Question"), please focus on other easier cases.
 
 ### 4. Stripping leading/trailing paired tags
 
