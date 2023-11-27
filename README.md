@@ -120,7 +120,7 @@ It would be a matter of checking pricing plans, including number of requests and
 
 ### 3. Updates in both languages
 
-#### 3.1. Remove "</g1><br/>.+" in both languages in cases like: 
+#### 3.1. Remove `</g1><br/>.+` in both languages in cases like: 
 
 	Tossing Coins</g1><br/> Question
 	Testa o croce</g1><br/> Domanda
