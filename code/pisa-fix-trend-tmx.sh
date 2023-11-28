@@ -9,7 +9,16 @@
 # Author:       Kos Ivantsov
 # Created:      2023-11-25
 # Version       0.1 (20231125)
+# Version       0.2 (20231128)
 
+# Put the file in the folder containing the TMs and run as 
+# bash pisa-fix-trend-tmx.sh .
+
+# if the folder contains zipped TMs do this first:
+# cd /path/to/folder
+# for f in $(ls *.zip); do unzip $f; done
+# find home -type f -exec mv {} . \;
+# rm -r home
 
 # Set the path to the folder containing the TMX files
 folder_path="$1"
@@ -66,9 +75,8 @@ for file in "$folder_path"/*.tmx; do
             BEGIN{$count=0;}
             s/&lt;([biu]|em|strong|span|sub|sup|mark|small|ins|del|code|cite|abbr|acronym|a)&gt;(.*?)&lt;\/\1&gt;/"&lt;g" . ++$count . "&gt;$2&lt;\/g$count&gt;"/ge;
             $count=0 if eol;
-    ## Remove leading and trailing tags
-            s/<seg>\s*&lt;g\d+&gt;\s*/<seg>/g;
-            s/\s*&lt;\/g\d+&gt;\s*<\/seg>/<\/seg>/g;
+    ## Remove leading and trailing paired tags
+            s~(<seg>[\s\n]*)&lt;([^&]+)&gt;\s*([^&<]+)\s*&lt;/\2&gt([\s\n]*</seg>);~$1$3$4~g;
     ## Remove double spaces
             s/(<seg>.*?<\/seg>)/$1 =~ s|[ \x{00A0}]+| |gr/ge;
     ## Fixes for the updated source files
@@ -83,15 +91,15 @@ for file in "$folder_path"/*.tmx; do
             s/It strictly decreases<\/seg>/It strictly decreases\.<\/seg>/g;
             s/It stays the same<\/seg>/It stays the same\.<\/seg>/g;
             s/Look at the (&lt;g\d+&gt;)tab(&lt;\/g\d+&gt;)\, titled “Angles of Vision\,” on the right\./Look at the $1tab$2 titled “Angles of Vision” on the right\./g;
-            s/The equation of the line is (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) \= 115 \– (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;)\, where (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) is the angle\, in degrees\, and (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;) is the speed of the vehicle\, in kilometres per hour\./The equation of the line is $1a$2&#x00A0;\=&#x00A0;115&#x00A0;\–&#x00A0;$3s$4\, where $5a$6 is the angle\, in degrees\, and $7s$8 is the speed of the vehicle\, in kilometres per hour\./g;
-            s/<seg>&lt;br class\=&quot;clear(Both)?&quot; \/&gt;/<seg>/g;
+            s/The equation of the line is (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) = 115 \– (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;)\, where (&lt;g\d+&gt;)a(&lt;\/g\d+&gt;) is the angle\, in degrees\, and (&lt;g\d+&gt;)s(&lt;\/g\d+&gt;) is the speed of the vehicle\, in kilometres per hour\./The equation of the line is $1a$2&#x00A0;\=&#x00A0;115&#x00A0;\–&#x00A0;$3s$4\, where $5a$6 is the angle\, in degrees\, and $7s$8 is the speed of the vehicle\, in kilometres per hour\./g;
+            s/<seg>&lt;br class=&quot;clear(Both)?&quot; \/&gt;/<seg>/g;
             s/&lt;\/g\d+&gt;&lt;br\/&gt; Question<\/seg>/<\/seg>/g;
         ' < "$file" > "${folder_path}/fix/${output_file}"
     
     ## Create a new TMX file with "paragraph" segtype declared.
         sed 's/segtype="sentence"/segtype="paragraph"/' "${folder_path}/fix/${output_file}" > "${folder_path}/fix/${output_resegmented_file}"
     ## Make a copy of the existing old TMX file with "paragraph" segtype declared.
-        if [ "$(grep 'segtype\=\"sentence\"' $file)" ]; then
+        if [ "$(grep 'segtype="sentence"' $file)" ]; then
             mkdir -p "${folder_path}/paragraph"
             sed 's/segtype="sentence"/segtype="paragraph"/' "${folder_path}/${file}" > "${folder_path}/paragraph/${file}"
         fi
